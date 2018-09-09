@@ -1,0 +1,41 @@
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+
+
+#footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.toolTip{
+	position: absolute;
+	display: inline;
+	width: 150px;
+	height: 125px;
+	padding: 5px;
+	font-size: 12px;
+	font-family: Georgia;
+	color: black;
+	text-align: center;
+	border: 2px;
+}
+
+.axisText{
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 20px;
+}
